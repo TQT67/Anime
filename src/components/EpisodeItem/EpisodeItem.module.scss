@@ -1,0 +1,61 @@
+.wrapper {
+    display: flex;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.image {
+    width: 106px;
+    height: 60px;
+    margin-right: 10px;
+    overflow: hidden;
+    img {
+        width: 106px;
+        height: 60px;
+        object-fit: cover;
+        transition: transform 0.5s;
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+}
+
+.content {
+    width: 200px;
+    .title {
+        font-size: 13px;
+        color: #333333;
+        &:hover {
+            color: #D80F16;
+        }
+    }
+}
+
+//theme
+.text-dark {
+    color: #1ab394 !important;
+    &:hover {
+        color: #23c6c8 !important;
+    }
+}
+
+.text-light {
+    color: #333 !important;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.text-grey {
+    color: #ccc !important;
+}
+
+.bg-dark {
+    background-color: #444444;
+}
+
+.border-dark {
+    border-color: #111 !important;
+}

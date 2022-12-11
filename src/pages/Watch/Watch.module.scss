@@ -1,0 +1,211 @@
+.container {
+    padding-left: 0;
+    padding-right: 0;
+
+    .row {
+    }
+
+    .column {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+.iframe-ytb {
+    width: 100%;
+    height: 500px;
+    border-bottom: 2px solid #d80f16;
+}
+
+.sidebar {
+    padding: 0px 10px 10px;
+    width: 100%;
+    height: 500px;
+    border: 1px solid #ddd;
+
+    .sidebar-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 40px;
+        font-size: 14px;
+        color: #333333;
+        border-bottom: 1px solid #ddd;
+
+        .tab-episodes {
+            height: 100%;
+            line-height: 40px;
+            border-bottom: 2px solid transparent;
+            cursor: pointer;
+        }
+
+        .tab-comments {
+            height: 100%;
+            line-height: 40px;
+            border-bottom: 2px solid transparent;
+            cursor: pointer;
+        }
+
+        .header-active {
+            border-bottom: 2px solid #d80f16;
+        }
+    }
+
+    .sidebar-controls {
+        font-size: 13px;
+        color: #333333;
+        height: 40px;
+        line-height: 40px;
+        margin: 0 -10px;
+        border-bottom: 1px solid #ddd;
+
+        .num-episodes {
+            padding: 0 10px;
+        }
+
+        .input-comment {
+            width: calc(100% - 20px);
+            height: 30px;
+            padding: 5px 10px;
+            margin: 0 10px;
+            outline: none;
+            border: 1px solid #ccc;
+        }
+    }
+}
+
+.description {
+    margin-top: 30px;
+
+    .heading {
+        .title {
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 20px;
+            color: #333333;
+        }
+        .view {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #333333;
+        }
+
+        .btn-action {
+            margin-top: 5px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            height: 30px;
+
+            .like {
+                font-size: 12px;
+                color: #fff;
+                background: #e5525e;
+                padding: 6px 14px;
+                border-radius: 8px;
+                cursor: pointer;
+
+                .like-icon {
+                    font-size: 18px;
+                    line-height: 16px;
+                    margin-right: 6px;
+                }
+            }
+
+            .follow {
+                font-size: 12px;
+                color: #fff;
+                background: #0e6f6a;
+                padding: 6px 14px;
+                border-radius: 8px;
+                cursor: pointer;
+
+                .follow-icon {
+                    font-size: 18px;
+                    line-height: 16px;
+                    margin-right: 6px;
+                }
+            }
+        }
+    }
+    .detail {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin-top: 20px;
+        font-size: 14px;
+        color: #333333;
+    }
+
+    .synopsis {
+        margin-top: 20px;
+        font-size: 14px;
+        color: #333333;
+        word-spacing: 6px;
+        margin-bottom: 20px;
+    }
+}
+
+.sidebar-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    gap: 10px;
+    height: 410px;
+    overflow-y: auto;
+    &::-webkit-scrollbar {
+        width: 10px;
+    }
+    &::-webkit-scrollbar-track {
+        border-radius: 8px;
+        background: #f1f1f1;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        border-radius: 8px;
+        background: #888;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+}
+
+.grid-items {
+    .container {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
+//theme
+.text-dark {
+    color: #1ab394 !important;
+}
+
+.text-light {
+    color: #333 !important;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.text-grey {
+    color: #ccc !important;
+}
+
+.bg-dark {
+    background-color: #444444 !important;
+}
+
+.border-dark {
+    border-color: #111 !important;
+}
+
+.input-dark {
+    background-color: #222 !important;
+    color: #ddd !important;
+    border-color: #222 !important;
+}

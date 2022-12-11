@@ -1,0 +1,5 @@
+.ads-home .carousel-control-prev,
+.ads-home .carousel-control-next,
+.ads-home button {
+    display: none !important;
+}

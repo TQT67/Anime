@@ -1,0 +1,64 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #d80f16;
+}
+
+.form-icon {
+    font-size: 20px;
+    line-height: 20px;
+    margin-right: 10px;
+}
+
+.form-input {
+    border: none;
+    outline: none;
+}
+
+.btn-signin {
+    color: #fff;
+    background-color: #d80f16;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 0;
+    border: none;
+    &:hover {
+        opacity: 0.9;
+        cursor: pointer;
+    }
+}
+
+.google {
+    margin-top: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c23321;
+    padding: 10px 0;
+    gap: 10px;
+    height: 44px;
+    &:hover {
+        opacity: 0.9;
+        cursor: pointer;
+    }
+    .google-icon {
+        font-size: 30px;
+    }
+
+    .btn-google {
+        font-size: 16px;
+        font-weight: 500;
+        border: none;
+        color: #fff;
+        background-color: transparent;
+    }
+}
